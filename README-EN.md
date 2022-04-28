@@ -35,11 +35,11 @@
 ## How to run Project
 
 - You need to have a Magento store installed on your computer: [Tutorial here] (https://courses.m.academy/courses/set-up-magento-2-development-environment-docker/lectures/9205849).
-- To reproduce this result in your store you must place these files in the same relative path of the folder of this repository (after the two folders called "academia" that can have the name you want). It is also possible to use fallback instead of "_extension".
+- To reproduce this result in your store you must place these files in the same relative path of the folder of this repository (after the two folders called "Magento2"/"theme-frontend" that can have the name you want).
 - Grunt is recommended for this changes.
 
 
 ## Video Preview (Youtube)
 
-[![Watch the video](https://img.youtube.com/vi/vqYf1iDuWT0/maxresdefault.jpg)](https://youtu.be/vqYf1iDuWT0)
+[![Watch the video](https://img.youtube.com/vi/91P7wj8-Lzw/maxresdefault.jpg)](https://youtu.be/91P7wj8-Lzw)
 

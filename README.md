@@ -35,7 +35,7 @@
 ## Como rodar:
 
 - Você precisa possuir uma loja Magento instalado no seu computador: [Tutorial aqui] (https://www.magenteiro.com/blog/magento-2/instalar-magento-2-tutorial/). Você pode ver também o docker da M.academy no link do Read-me em [Inglês](./README-EN.md).
-- Para reproduzir na sua loja este resultado você deve colocar estes arquivos no mesmo caminho relativo da pasta deste repositório (depois da pasta chamada "Magento2" e "theme-frontend" que podem ter o nome que desejar). É possivél tambem utilizar fallback ao invés de "extension".
+- Para reproduzir na sua loja este resultado você deve colocar estes arquivos no mesmo caminho relativo da pasta deste repositório (depois da pasta chamada "Magento2" e "theme-frontend" que podem ter o nome que desejar).
 - É recomendado o uso do grunt para garantir a aplicação de todos os estilos.
 
 ## Video Preview (Youtube)
