@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- 
+        @author      Webjump Core Team <dev@webjump.com.br>
+        @copyright   2022 Webjump (http://www.webjump.com.br)
+        @license     http://www.webjump.com.br  Copyright
+
+        @link        http://www.webjump.com.br
+    -->
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="footer" remove="true" />
+        <referenceBlock name="copyright" remove="true" />
+        <referenceContainer name="header.panel" remove="true" />
+        <move element="authorization-link" destination="header-wrapper" after="-"/>
+
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/truck-logo.png</argument>
+                <argument name="logo_width" xsi:type="number">126</argument>
+                <argument name="logo_height" xsi:type="number">86</argument>
+            </arguments>
+        </referenceBlock>
+        <move element="navigation.sections" destination="header-wrapper" />
+
+        <referenceContainer name="footer-container">
+            <block class="Magento\Framework\View\Element\Template" name="simple.block.footer" template="Magento_Theme::custom-footer.phtml">
+                <arguments>
+                    <argument name="custom_footer" xsi:type="string">This is a custom value</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Cms\Block\Block" name="cms-footer">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">Footer_Block</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
